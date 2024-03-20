@@ -11,6 +11,20 @@ body{
     align-items: center;
 }
 
+/* #music_btn{
+    position: absolute;
+    font-size: 30px;
+    right: 10px;
+    border: 3px solid;
+    border-radius: 10px;
+    transition: 0.4s;
+} */
+
+#music_btn:hover{
+    color:rgb(127, 255, 212) ;
+    background-color: black;
+}
+
 #borad{
     display: flex;
     flex-direction: column;
@@ -21,6 +35,7 @@ body{
     background-color:aquamarine;
     border: 3px solid black;
     border-radius: 10px;
+    font-size: 25px;
 }
 
 h2{
@@ -29,15 +44,38 @@ h2{
 
 #scoreBorad{
     display: flex;
-    flex-direction: row;
-    font-size: 25px;
+    flex-direction: row; 
 }
+
+#died{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 0, 0, 0.7);
+    font-size: 70px;
+    background: url("./imgs/OIP-C.jpg") ;
+    height: 60vh;
+    width: 36vw;
+    border: 3px solid ;
+    border-radius: 15px;
+
+}
+
 button{
-    font-size: 20px;
+    font-size: 25px;
     border: 0;
     background-color: rgb(127, 255, 212);
 }
 
+#music_btn{
+    position: absolute;
+    right: 40px;
+}
+
+h4{
+    color: chartreuse;
+}
 #start1{
     transition: 0.4s;
 }
